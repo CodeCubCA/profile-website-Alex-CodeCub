@@ -206,12 +206,12 @@ function Home() {
                   {/* Project Screenshot */}
                   <div className="relative bg-gradient-to-br from-purple-900 to-indigo-900 p-8 flex items-center justify-center">
                     <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/10 to-purple-400/10"></div>
-                    <div className="relative w-full h-64 bg-gray-800 rounded-2xl border-4 border-cyan-500/30 shadow-xl flex items-center justify-center overflow-hidden">
-                      <div className="text-center p-6">
-                        <div className="text-6xl mb-4">🎮</div>
-                        <div className="text-2xl font-bold text-cyan-400 mb-2">Interactive Portfolio</div>
-                        <div className="text-sm text-gray-400">12 Epic Games & Animated UI</div>
-                      </div>
+                    <div className="relative w-full h-64 bg-gray-800 rounded-2xl border-4 border-cyan-500/30 shadow-xl overflow-hidden">
+                      <img
+                        src="/img/profile.png"
+                        alt="Personal Portfolio Website Screenshot"
+                        className="w-full h-full object-cover"
+                      />
                     </div>
                   </div>
 
@@ -269,12 +269,12 @@ function Home() {
                   {/* Project Screenshot */}
                   <div className="relative bg-gradient-to-br from-indigo-900 to-purple-900 p-8 flex items-center justify-center">
                     <div className="absolute inset-0 bg-gradient-to-br from-purple-400/10 to-pink-400/10"></div>
-                    <div className="relative w-full h-64 bg-gray-800 rounded-2xl border-4 border-purple-500/30 shadow-xl flex items-center justify-center overflow-hidden">
-                      <div className="text-center p-6">
-                        <div className="text-6xl mb-4">🤖</div>
-                        <div className="text-2xl font-bold text-purple-400 mb-2">AI Assistant</div>
-                        <div className="text-sm text-gray-400">Powered by Groq API</div>
-                      </div>
+                    <div className="relative w-full h-64 bg-gray-800 rounded-2xl border-4 border-purple-500/30 shadow-xl overflow-hidden">
+                      <img
+                        src="/img/chatbox.png"
+                        alt="Study Buddy AI Assistant Screenshot"
+                        className="w-full h-full object-cover"
+                      />
                     </div>
                   </div>
 
