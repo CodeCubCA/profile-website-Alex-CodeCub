@@ -191,7 +191,7 @@ function Home() {
           </div>
 
           {/* Featured Projects Section */}
-          <div className="mb-16">
+          <div id="projects" className="mb-16">
             <div className="text-center mb-12">
               <h2 className="text-5xl font-bold mb-4 bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
                 Featured Projects

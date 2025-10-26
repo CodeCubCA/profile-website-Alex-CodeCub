@@ -31,6 +31,22 @@ function Header() {
               <span>🏠</span>
               <span>Home</span>
             </Link>
+            <a
+              href="/#projects"
+              className="flex items-center space-x-2 text-cyan-300 hover:text-cyan-200 text-lg font-semibold transition-all duration-300 hover:scale-110"
+              onClick={(e) => {
+                e.preventDefault()
+                const projectsSection = document.getElementById('projects')
+                if (projectsSection) {
+                  projectsSection.scrollIntoView({ behavior: 'smooth', block: 'start' })
+                } else {
+                  window.location.href = '/#projects'
+                }
+              }}
+            >
+              <span>💼</span>
+              <span>Projects</span>
+            </a>
             <Link
               to="/games"
               className="flex items-center space-x-2 text-white hover:text-pink-300 text-lg font-semibold transition-all duration-300 hover:scale-110"
