@@ -262,6 +262,67 @@ function Home() {
                   </div>
                 </div>
               </div>
+
+              {/* Project Card - AI Chatbox */}
+              <div className="bg-black/40 backdrop-blur-md rounded-3xl overflow-hidden border border-purple-500/30 shadow-2xl hover:shadow-purple-500/40 transition-all duration-500 transform hover:scale-105 mt-8">
+                <div className="grid md:grid-cols-2 gap-0">
+                  {/* Project Screenshot */}
+                  <div className="relative bg-gradient-to-br from-indigo-900 to-purple-900 p-8 flex items-center justify-center">
+                    <div className="absolute inset-0 bg-gradient-to-br from-purple-400/10 to-pink-400/10"></div>
+                    <div className="relative w-full h-64 bg-gray-800 rounded-2xl border-4 border-purple-500/30 shadow-xl flex items-center justify-center overflow-hidden">
+                      <div className="text-center p-6">
+                        <div className="text-6xl mb-4">🤖</div>
+                        <div className="text-2xl font-bold text-purple-400 mb-2">AI Assistant</div>
+                        <div className="text-sm text-gray-400">Powered by Groq API</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Project Info */}
+                  <div className="p-8">
+                    <div className="mb-4">
+                      <h3 className="text-3xl font-bold text-white mb-2">Study Buddy AI Assistant</h3>
+                      <p className="text-gray-300 leading-relaxed">
+                        An intelligent AI-powered chatbot built with Streamlit and Groq API. Features real-time conversation,
+                        context awareness, and deployed to the cloud with CI/CD. Perfect for students seeking instant help with
+                        homework, explanations, and learning support across various subjects.
+                      </p>
+                    </div>
+
+                    {/* Tech Stack Badges */}
+                    <div className="mb-6">
+                      <h4 className="text-sm font-bold text-purple-400 mb-3">Tech Stack:</h4>
+                      <div className="flex flex-wrap gap-2">
+                        <span className="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-xs font-semibold border border-blue-500/30">Python</span>
+                        <span className="px-3 py-1 bg-red-500/20 text-red-300 rounded-full text-xs font-semibold border border-red-500/30">Streamlit</span>
+                        <span className="px-3 py-1 bg-purple-500/20 text-purple-300 rounded-full text-xs font-semibold border border-purple-500/30">Groq API</span>
+                        <span className="px-3 py-1 bg-green-500/20 text-green-300 rounded-full text-xs font-semibold border border-green-500/30">Git</span>
+                        <span className="px-3 py-1 bg-pink-500/20 text-pink-300 rounded-full text-xs font-semibold border border-pink-500/30">Streamlit Cloud</span>
+                      </div>
+                    </div>
+
+                    {/* Action Buttons */}
+                    <div className="flex gap-4">
+                      <a
+                        href="https://github.com/CodeCubCA/ai-chatbox-alex-CodeCub"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex-1 bg-gradient-to-r from-gray-700 to-gray-800 hover:from-gray-600 hover:to-gray-700 text-white px-6 py-3 rounded-xl font-bold text-center transition-all duration-300 shadow-xl hover:shadow-gray-500/50 flex items-center justify-center gap-2"
+                      >
+                        <span>📝</span> View Code
+                      </a>
+                      <a
+                        href="https://ai-chatbox-alex-codecub.streamlit.app"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex-1 bg-gradient-to-r from-purple-500 to-pink-600 hover:from-purple-400 hover:to-pink-500 text-white px-6 py-3 rounded-xl font-bold text-center transition-all duration-300 shadow-xl hover:shadow-purple-500/50 flex items-center justify-center gap-2"
+                      >
+                        <span>🤖</span> Try Live Demo
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
